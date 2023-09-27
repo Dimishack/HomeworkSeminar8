@@ -14,5 +14,6 @@ import WorkWithInfo.ReadAndWriteFile as rw
 import WorkWithInfo.EditFile as ef
 filename = "Telephone_list.txt"
 telephones = set(rw.read_file(filename))
-ef.addTelephone(telephones)
-rw.write_in_file(filename, telephones)
+ef.findTelephone(telephones)
+# ef.addTelephone(telephones)
+# rw.write_in_file(filename, telephones)
